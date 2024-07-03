@@ -1,4 +1,4 @@
-import { Alert, Container, Typography } from "@mui/material";
+import { Alert, Box, Container, Typography } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
 
 import Stack from '@mui/material/Stack';
@@ -18,7 +18,6 @@ export const Home = () => {
       <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
         Here is a gentle confirmation that your action was successful.
       </Alert>
-
 
       <Stack sx={{ width: '100%' }} spacing={2}>
         <Typography variant="h2">Alerts</Typography>
