@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useQuery } from 'react-query'
 
+// eslint-disable-next-line react-refresh/only-export-components
 const ApiKey = import.meta.env.VITE_API_KEY;
 
 const getWeatherData = async (city) => {
