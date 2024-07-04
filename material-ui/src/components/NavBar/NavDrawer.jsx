@@ -4,14 +4,14 @@ import {
   List,
   ListItem,
   ListItemButton,
-  ListItemIcon,
   ListItemText,
-  Typography,
+  // ListItemIcon,
+  // Typography,
 } from "@mui/material";
 
 // Icons
-import InboxIcon from "@mui/icons-material/Inbox";
-import DraftsIcon from "@mui/icons-material/Drafts";
+// import InboxIcon from "@mui/icons-material/Inbox";
+// import DraftsIcon from "@mui/icons-material/Drafts";
 import MouseIcon from "@mui/icons-material/Mouse";
 import DeleteIcon from "@mui/icons-material/Delete";
 

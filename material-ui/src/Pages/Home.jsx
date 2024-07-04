@@ -1,4 +1,4 @@
-import { Alert, Box, Container, Typography } from "@mui/material";
+import { Alert, Container, Typography } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
 
 import Stack from '@mui/material/Stack';
