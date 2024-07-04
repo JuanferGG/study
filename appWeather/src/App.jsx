@@ -7,8 +7,6 @@ import { useWeatherData } from "./Utils/Api";
 import { useState } from "react";
 import { InfoWeather } from "./Components/InfoWeather";
 
-// API a llamar http://api.weatherapi.com/v1/current.json?key=fc1b1ac23dd24cefbe6164037240307&q=London&aqi=no
-
 const validateSchema = Yup.object({
   city: Yup.string().required("City is required").min(3, 'Min required three(3) characters'),
 });
